@@ -1,0 +1,14 @@
+import React from 'react';
+import PhotoCard from './PhotoCard';
+
+const PhotoGallery = ({ photoUrls }) => {
+  return (
+    <div className="photo-gallery">
+      {photoUrls.map((photoUrl, index) => (
+        <PhotoCard key={index} photoUrl={photoUrl} />
+      ))}
+    </div>
+  );
+};
+
+export default PhotoGallery;

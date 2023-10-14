@@ -1,0 +1,42 @@
+/* Styles for PhotoCard (Photo Component) */
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0px !important;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow: hidden; /* Add this style */
+  }
+  
+  .card-content {
+    transition: transform 0.2s; /* Add this style */
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s; /* Add this style */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card:hover .card-content {
+    transform: scale(1.2); /* Add this style for larger content on hover */
+  }
+  
+  .card:hover img {
+    cursor: pointer;
+    opacity: 0.6; /* Adjust opacity on hover for a visual effect */
+    transform: scale(1.2); /* Add this style for larger image on hover */
+  }
+  
