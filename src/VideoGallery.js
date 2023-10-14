@@ -18,25 +18,25 @@ const VideoGallery = () => {
 
   const videoUrls = [
      
-    '/assets/videos/v1.mov',
-    '/assets/videos/v2.mov', 
+    '/VideoGallery/assets/videos/v1.mov',
+    '/VideoGallery/assets/videos/v2.mov', 
   ];
   
   const photoUrls = [
-    '/assets/photos/a1.png',
-    '/assets/photos/a2.png',
-    '/assets/photos/a3.png', // New photo from the "assets" folder in "public"
-    '/assets/photos/a4.png', // New photo from the "assets" folder in "public"
-    '/assets/photos/a5.png',
-    '/assets/photos/a6.png',
-    '/assets/photos/a7.png',
-    '/assets/photos/a8.png',
-    '/assets/photos/a9.png',
-    '/assets/photos/a10.png',
-    '/assets/photos/a12.png',
-    '/assets/photos/a13.png',
-    '/assets/photos/a14.png',
-    '/assets/photos/a15.png',
+    '/VideoGallery/assets/photos/a1.png',
+    '/VideoGallery/assets/photos/a2.png',
+    '/VideoGallery/assets/photos/a3.png', // New photo from the "assets" folder in "public"
+    '/VideoGallery/assets/photos/a4.png', // New photo from the "assets" folder in "public"
+    '/VideoGallery/assets/photos/a5.png',
+    '/VideoGallery/assets/photos/a6.png',
+    '/VideoGallery/assets/photos/a7.png',
+    '/VideoGallery/assets/photos/a8.png',
+    '/VideoGallery/assets/photos/a9.png',
+    '/VideoGallery/assets/photos/a10.png',
+    '/VideoGallery/assets/photos/a12.png',
+    '/VideoGallery/assets/photos/a13.png',
+    '/VideoGallery/assets/photos/a14.png',
+    '/VideoGalleryrm/assets/photos/a15.png',
     // Add more photo URLs here
   ];
   const [isMuted, setIsMuted] = useState(true);
