@@ -8,7 +8,7 @@ const VideoGallery = () => {
 
     useEffect(() => {
       // Load the autoplay video when the component mounts.
-      setAutoplayVideo('/assets/videos/v3.mp4');
+      setAutoplayVideo('/VideoGallery/assets/videos/v3.mp4');
     }, []);
   
     const handleVideoChange = (videoUrl) => {
@@ -51,7 +51,7 @@ const VideoGallery = () => {
     <div className="video-gallery">
       <div className="fullscreen-video">
       <video autoPlay playsInline loop ref={videoRef} muted={isMuted} onClick={toggleMute}>
-        <source src='/assets/videos/v3.mp4' type="video/mp4" />
+        <source src='/VideoGallery/assets/videos/v3.mp4' type="video/mp4" />
       </video>
      
       </div>
